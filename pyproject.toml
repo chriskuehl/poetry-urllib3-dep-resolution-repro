@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-update-repro"
+version = "0.0.0"
+description = ""
+authors = ["test"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "poetry_update_repro"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+urllib3 = "*"
+boto3 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
